@@ -6,3 +6,10 @@
 .no-margin {
   margin: 0px;
 }
+
+.hero {
+  outline-style: solid;
+  outline-color: red;
+  outline-width: thick;
+  height: 100vh;
+}
