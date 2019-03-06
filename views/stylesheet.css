@@ -24,34 +24,37 @@ body {
   margin: 0px;
 }
 
-.hero {
-  height: 100vh;
-  background-color: #263238;
-  position: relative;
+#main-title {
+  padding-top: 25%;
+  color: black;
+  font-size: 290%;
 }
 
-/* .hero-background {
+.hero {
+  height: 100vh;
+  background-color:#eceff1;
+  position: relative;
   background-image: url(../assets/background.png);
-  right: 0;
-  width: 50vw;
-    height: 100vh;
-    background-size: cover;
-    background-position: 50%;
-  float: right;
-} */
+  width: 100vw;
+  background-size: cover;
+}
 
-.margin-left {
-  margin: auto;
+.title {
+  font-size: 290%;
+  margin-top: 5%;
+}
+
+.padding-left {
   padding-left: 15%;
 }
 .hero-text{
   font-size: 220%;
-  color: #eceff1;
+  color: black;
   /* text-transform: uppercase; */
 }
 
 .button {
-  background-color: #6078A7; /* Green */
+  background-color: black; /* Green */
   border: none;
   border-radius: 3px;
   color: #eceff1;
@@ -67,7 +70,7 @@ body {
 
 .button:hover {
   background-color: #eceff1;
-  color: #6078A7;
+  color: black;
 }
 
 .title-buttons {
@@ -79,11 +82,6 @@ body {
   margin-left: 15%;
 }
 
-#main-title {
-  padding-top: 25%;
-  color: #eceff1;
-  font-size: 290%;
-}
 
 /* Hero Text Fade In */
 .loading-transition{
