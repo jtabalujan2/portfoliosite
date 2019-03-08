@@ -28,6 +28,7 @@ body {
   padding-top: 25%;
   color: black;
   font-size: 290%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .hero {
@@ -42,15 +43,18 @@ body {
 .title {
   font-size: 290%;
   margin-top: 5%;
+  font-family: 'Roboto', sans-serif;
 }
 
 .padding-left {
   padding-left: 15%;
 }
 .hero-text{
-  font-size: 220%;
+  font-size: 300%;
   color: black;
-  /* text-transform: uppercase; */
+  font-family: 'Roboto', sans-serif;
+  /* text-transform: uppercase;  */
+
 }
 
 .button {
